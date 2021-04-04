@@ -1,0 +1,21 @@
+export COMPOSE_FILE=local.yml
+docker-compose build
+docker-compose up
+docker-compose ps
+docker-compose down
+
+
+docker-compose -f local.yml build
+docker-compose -f local.yml up
+docker-compose -f local.yml ps
+docker-compose -f local.yml down
+
+
+comandos administrativos
+docker-compose run --rm django <COMMAND>
+
+docker-compose run --rm --service-ports django
+
+cride-platzi-1-codebase_local_postgres_data
+
+docker volumen rm 
